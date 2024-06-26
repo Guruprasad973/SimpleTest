@@ -1,7 +1,15 @@
-/* git push origin main  */
+.section
+{
+  display:none;
+  height:100%;
+  width:100%;
+}
+.active{
+  display:block;
+}
 .body
 {
-  background-color:rgb(195, 184, 170);
+  background-color:rgb(184, 136, 74);
   margin:0;
   top:0;
   bottom:0;
@@ -20,7 +28,7 @@
   display: flex;
   cursor:pointer;
   flex-direction: column;
-  box-shadow:5px 20px 40px rgb(65, 51, 51);
+  box-shadow:5px 20px 40px rgb(91, 91, 91);
 
 }
 .mnpglbcls
@@ -34,7 +42,7 @@
   height:15px;
   border-radius:5px;
   padding:5px;
-  border:1px solid black;
+  border:none;
   justify-content: center;
   text-align:center;
   margin-left:5px;
@@ -42,10 +50,11 @@
 }
 .btn
 {
-  width:180px;
+  width:190px;
   height:25px;
+  margin-left:90px;
   font-weight:bold;
-  border:1px solid black;
+  border:1px solid rgb(108, 100, 100);
   border-radius: 5px;
   cursor:pointer;
   background-color: rgb(64, 120, 209);
@@ -53,8 +62,15 @@
 }
 .frbtn
 {
-  background-color: rgb(195, 184, 170);
+  margin-left:90px;
+  background-color: rgb(184, 136, 74);
   cursor:pointer;
   border:none;
-  color:rgb(32, 29, 29);
+  color:rgb(8, 7, 7);
+  font-weight:bold;
+}
+.twpgcls{
+  background-color: rgb(80, 71, 65);
+  width:100%;
+  height:100%; 
 }
